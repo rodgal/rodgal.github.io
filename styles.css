@@ -15,6 +15,10 @@ body {
     padding: 10px;
 }
 
+header {
+    margin-bottom: 2em;
+}
+
 h1 {
     text-align: center;
     font-size: 3em;
@@ -29,4 +33,21 @@ h1 + span {
     margin: 0 auto;
     display: block;
     text-align: center;
+}
+
+section {
+    background: whitesmoke;
+    padding: 0.1em;
+    position: relative;
+    margin-bottom: 1.8em;
+}
+
+h4 {
+    margin-left: 2em;
+    position: absolute;
+    width: 150px;
+    display: inline-block;
+    top: -2.4em;
+    background: chartreuse;
+    padding: 5px;
 }
