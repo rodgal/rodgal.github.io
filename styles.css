@@ -8,11 +8,12 @@ body {
     background-color: royalblue;
 }
 
-.container {
+main {
     width: 768px;
     background: rgba(255, 255, 255, 0.3);
     margin: 0 auto;
     padding: 10px;
+    height: 100%;
 }
 
 header {
@@ -20,34 +21,59 @@ header {
 }
 
 h1 {
-    text-align: center;
-    font-size: 3em;
-    margin: 0 0 15px;
-}
-
-h1 span {
-    font-size: 15px;
+	text-align: center;
+	font-size: 3em;
+	color: lavender;
+	margin: 0 0 5px;
 }
 
 h1 + span {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
 }
-
 section {
     background: whitesmoke;
     padding: 0.1em;
     position: relative;
-    margin-bottom: 1.8em;
+    margin-bottom: 3.2em;
+    padding-left: 2em;
 }
 
 h4 {
     margin-left: 2em;
     position: absolute;
-    width: 150px;
+    width: 65px;
     display: inline-block;
     top: -2.4em;
+    left: -20px;
     background: chartreuse;
     padding: 5px;
+    transform: rotate(-15deg);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+span em {
+	font-style: normal;
+	font-size: 1.5em;
+	color: chartreuse;
+	margin: 0.3em;
+}
+
+ul {
+	margin-top: 1.6em;
+}
+
+li {
+	margin-bottom: 1em;
+	list-style-image: url('images/list_icon.png');
+}
+
+span em {
+	font-style: normal;
+	font-size: 1.5em;
+	color: chartreuse;
+	margin: 0.3em;
 }
