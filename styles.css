@@ -5,12 +5,12 @@ body {
     font-family: sans-serif;
     margin: 0;
     color: #444;
-    background-color: royalblue;
+    background-color: rgb(77,188,233);
 }
 
 main {
     width: 768px;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgb(38,173,228);
     margin: 0 auto;
     padding: 10px;
     height: 100%;
@@ -21,18 +21,18 @@ header {
 }
 
 h1 {
-	text-align: center;
-	font-size: 3em;
-	color: lavender;
-	margin: 0 0 5px;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(255,255,255);
+    margin: 0 0 5px;
 }
 
 h1 + span {
-	margin: 0 auto;
-	display: block;
-	text-align: center;
-	font-weight: bold;
-	font-size: 13px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
 }
 section {
     background: whitesmoke;
@@ -49,31 +49,31 @@ h4 {
     display: inline-block;
     top: -2.4em;
     left: -20px;
-    background: chartreuse;
+    background: rgb(209,231,81);
     padding: 5px;
     transform: rotate(-15deg);
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
 span em {
-	font-style: normal;
-	font-size: 1.5em;
-	color: chartreuse;
-	margin: 0.3em;
+    font-style: normal;
+    font-size: 1.5em;
+    color: chartreuse;
+    margin: 0.3em;
 }
 
 ul {
-	margin-top: 1.6em;
+    margin-top: 1.6em;
 }
 
 li {
-	margin-bottom: 1em;
-	list-style-image: url('images/list_icon.png');
+    margin-bottom: 1em;
+    list-style-image: url('images/list_icon.png');
 }
 
 span em {
-	font-style: normal;
-	font-size: 1.5em;
-	color: chartreuse;
-	margin: 0.3em;
+    font-style: normal;
+    font-size: 1.5em;
+    color: rgb(209,231,81);
+    margin: 0.3em;
 }
