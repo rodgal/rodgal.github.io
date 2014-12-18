@@ -71,6 +71,10 @@ li {
     list-style-image: url('images/list_icon.png');
 }
 
+a {
+    color:rgb(255,255,255);
+}
+
 span em {
     font-style: normal;
     font-size: 1.5em;
